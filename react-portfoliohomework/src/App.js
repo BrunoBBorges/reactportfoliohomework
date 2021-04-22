@@ -1,19 +1,15 @@
-
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-
+import Navbar from './Components/Navbar';
+import footer from './Components/footer/footer';
+import { Link, useLocation } from "react-router-dom";
+import projectList from "./Components/projectList";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar/>
-        <switch>
-          <Route path="/" exact />
-        </switch>
-      </Router>
+      <Navbar/>
+      <projectList/>
+      <footer/>
     </div>
   );
 }

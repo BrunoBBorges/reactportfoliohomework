@@ -1,28 +1,27 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./footer.css";
 
-function footer() {
-  const location = useLocation();
+function Footer() {
+
   return (
-    <footer
-      className="pb5 ml3 mr3" style={{ paddingBottom: "115px", paddingTop: "30px" }}>
+    <footer className="pb5 ml3 mr3" style={{ paddingBottom: "115px", paddingTop: "30px" }}>
 
       <ul className="Horizontal-List">
         <li className="Horizontal-List-Item">
-          <Link to="../index.js/" className={(location.pathname === "/" ? "nav-link active" : "nav-link", "f7")}>
+          <a href="https://github.com/BrunoBBorges" rel="noopener noreferrer">
             Github
-          </Link>
+            </a>
         </li>
 
         <li className="Horizontal-List-Item">
-          <Link to="/" className={(location.pathname === "/" ? "nav-link active" : "nav-link", "f7")}>
+          <Link to="/" >
             Email Me
           </Link>
         </li>
 
         <li className="Horizontal-List-Item">
-          <Link to="/" className={(location.pathname === "/" ? "nav-link active" : "nav-link", "f7")}>
+          <Link to="/" >
             LinkedIn
           </Link>
         </li>
@@ -31,4 +30,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;
