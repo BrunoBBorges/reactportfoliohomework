@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './Components/Navbar';
-import {BrowserTourter as Router, Switch, Route} from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 
