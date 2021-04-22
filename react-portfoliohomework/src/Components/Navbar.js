@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./navbar.css";
-//Font awesome icons
+
 
 function NavBar() {
   const location = useLocation();
