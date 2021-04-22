@@ -15,15 +15,11 @@ function Footer() {
         </li>
 
         <li className="Horizontal-List-Item">
-          <Link to="/" >
             Email Me
-          </Link>
         </li>
 
         <li className="Horizontal-List-Item">
-          <Link to="/" >
             LinkedIn
-          </Link>
         </li>
       </ul>
     </footer>

@@ -16,4 +16,4 @@ function Projectcontainer (props) {
     );
 }
 
-export default Projectcontainer
+export default Projectcontainer;
